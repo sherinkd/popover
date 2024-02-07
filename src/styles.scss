@@ -1,13 +1,17 @@
-.purple-green-theme {
-    @import '~@angular/material/prebuilt-themes/indigo-pink.css';
-}
+@use 'sass:map';
+@use '@angular/material' as mat;
+@include mat.core();
 
+.purple-green-theme {
+  @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+}
+//
 @import './app/core/themes/deeppurple-amber';
-@import './app/core/themes/pink-bluegrey';
-@import './app/core/themes/pink-grey';
-@import './app/core/themes/indigo-pink';
-@import './app/core/themes/indigo-grey';
-@import './app/core/themes/purple-green';
+//@import './app/core/themes/pink-bluegrey';
+//@import './app/core/themes/pink-grey';
+//@import './app/core/themes/indigo-pink';
+//@import './app/core/themes/indigo-grey';
+//@import './app/core/themes/purple-green';
 
 
 
